@@ -28,9 +28,8 @@ body {
   --font-barlow-condensed: "Barlow Condensed", sans-serif;
   --font-poppins: "Poppins", sans-serif;
 }
-.main {
+#main {
   position: relative;
- 
   display: flex;
   justify-content: center;
   align-items: center;
