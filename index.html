@@ -1,200 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FIGMA-DESIGN TO LIVE-WEBSITE</title>
-  <link rel="stylesheet" href="style.css" />
- <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"/> -->
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIGMA-DESIGN TO LIVE-WEBSITE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+  </head>
   <body>
-<div class="main">
+    <div class="main" id="main">
+      <div class="hero">
+        <nav>
+          <h1>john</h1>
 
-  <div class="hero">
-    <nav>
-      <h1>john</h1>
-
-      <ul class="nav-items">
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#skill">Skills</a>
-        </li>
-        <li>
-          <a href="#project">Project</a>
-        </li>
-        <li>
-          <a href="#" class="btn btn-contact" id="contact">Contact <img src="./imges/arrow-right-line.svg" alt="" />
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <div class="hero-container">
-      <div class="left">
-        <div class="left-content">
-          <p>HEY</p>
-          <h1 class="name-text"> I’AM <span>JOHN</span> FARNADIS</h1>
-          <h1 class="car-text">FRONTEND DEVELOPER | WEB DESIGN</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.
-            Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis
-            tellus.</p>
-          <button class="btn btn-hire">Hire Me</button>
-        </div>
-      </div>
-      <div class="right">
-        <div class="right-img">
-          <img class="hero-img" src="./imges/hero-img.svg" alt="">
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="about-section" id="about">
-    <div class="about-container">
-      <div class="left">
-        <img src="./imges/about-img.svg" alt="">
-      </div>
-      <div class="right">
-        <h1>About</h1>
-        <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum magni,
-          delectus non, natus distinctio sit illo voluptate magnam voluptates, recusandae perspiciatis debitis. Dolores
-          minus aperiam perspiciatis sunt neque, id ullam? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Temporibus quidem ipsum nihil vitae unde deleniti necessitatibus voluptas placeat possimus officia, molestias
-          similique non excepturi quia nulla maiores quod ad expedita?adipisicing elit. Molestiae, repellat provident!
-          Blanditiis veritatis obcaecati quo deleniti repellat magni, tenetur animi illo distinctio! Rem fuga aliquid
-          ipsum iure eligendi, cumque eaque. Eius ullam suscipit inventore perferendis.</p>
-        <button class="btn btn-resume">Resume</button>
-      </div>
-    </div>
-  </div>
-  <div class="skill-section" id="Skill">
-
-    <h1>Skills</h1>
-    <div class="skill-container">
-      <div class="left">
-        <div class="skill-left-content">
-          <h2>Development</h2>
-          <ul class="skill-txt">
-            <li>Html</li>
-            <li> Css</li>
-            <li>JavaScript</li>
-            <li>Node js</li>
+          <ul class="nav-items">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Skills</a>
+            </li>
+            <li>
+              <a href="#">Project</a>
+            </li>
+            <li>
+              <a href="#" class="btn btn-contact" id="contact"
+                >Contact <img src="./imges/arrow-right-line.svg" alt="" />
+              </a>
+            </li>
           </ul>
-        </div>
-        <div class="skill-left-content">
-          <h2>Design</h2>
-          <ul class="skill-txt">
-            <li>Figma</li>
-            <li> Photoshop</li>
-            <li>Adobe XD</li>
-          </ul>
-
-        </div>
-
-
-      </div>
-      <div class="right">
-        <img src="./imges/skill vectoer/Programming-pana.svg" alt="">
-      </div>
-    </div>
-  </div>
-  <div class="project-section" id="project">
-    <h1>Projects</h1>
-    <div class="project-content">
-      <div class="project-img">
-        <img src="https://img.freepik.com/free-vector/flat-cms-content-landing-page_23-2148806201.jpg?w=1060&t=st=1698241726~exp=1698242326~hmac=c12edb247d6816b0df6bc4e174636f867b4c815010167b059885065a960e5e4c" alt="">
-        <h3> CMs content managment system </h3>
-      </div>
-      <div class="project-img">
-        <img src="https://img.freepik.com/free-vector/web-design-agency-landing-page_52683-868.jpg?w=740&t=st=1698241778~exp=1698242378~hmac=9fc16244c45cb32fd39d922c59c3d1dc4bbd6036ba847949f557b496f74566d3" alt="">
-        <h3>Web design agency</h3>
-      </div>
-      <div class="project-img">
-        <img src="https://img.freepik.com/free-vector/flat-travel-landing-page-template_52683-16387.jpg?size=626&ext=jpg" alt="">
-        <h3> Time to travel</h3>
-      </div>
-    </div>
-  
-  </div>
-  <div class="contact-section" id="contact">
-    <h1>Contact</h1>
-    <div class="contact-container">
-      <div class="left">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15095.010313292814!2d72.81488469122638!3d18.94234271575531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1de283029ed%3A0x5da3ab75b442c9b!2sMarine%20Lines%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1698244619396!5m2!1sen!2sin"
-         width="560"
-          height="500"
-           style="border:0;"
-            allowfullscreen=""
-         loading="lazy" 
-         referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-      </div>
-      <div class="right">
-        <div class="contact-form">
-          <div class="input-form">
-            <label for="name">Name</label>
-            <input type="text" placeholder="" id="name">
+        </nav>
+        <div class="hero-container">
+          <div class="left">
+            <div class="left-content">
+              <p>HEY</p>
+              <h1 class="name-text">I’AM <span>JOHN</span> FARNADIS</h1>
+              <h1 class="car-text">FRONTEND DEVELOPER | WEB DESIGN</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
+                massa mi. Aliquam in hendrerit urna. Pellentesque sit amet
+                sapien fringilla, mattis ligula consectetur, ultrices mauris.
+                Maecenas vitae mattis tellus.
+              </p>
+              <button class="btn btn-hire">Hire Me</button>
+            </div>
           </div>
-          <div class="input-form">
-            <label for="email">Email Id</label>
-            <input type="email" placeholder="" id="email">
+          <div class="right">
+            <div class="right-img">
+              <img class="hero-img" src="./imges/hero-img.svg" alt="" />
+            </div>
           </div>
-          <div class="input-form">
-            <label for="Message">Message</label>
-            
-            <textarea name="" id="" cols="30" id="Message" rows="10"></textarea>
-          </div>
-          <button class="btn">Submit</button>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="footer">
-    <div class="footer-container">
-    <div class="left">
-      <h1>john</h1>
-      <h3>Great web design without functionality is like a sports car with no engine.</h3>
-      <p>ADITYA 2023</p>
-    </div>
-    <div class="right">
-     
-        <ul class="footer-nav-items">
-          <h2>links</h2>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Skills</a>
-          </li>
-          <li>
-            <a href="#">Project</a>
-          </li>
-        </ul>
-    </div>
-  </div>
-  <div class="footer-end">
-    <div class="left">
-      <p>ADITYA 2023</p>
-    </div>
-    <div class="right">
-      <p>TERMS || CONDITIONS</p>
-    </div>
-  </div>
-  </div>  
-  
+      <div class="about-section" id="about">
+        <div class="about-container">
+          <div class="left">
+            <img src="./imges/about-img.svg" alt="" />
+          </div>
+          <div class="right">
+            <h1>About</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Earum magni, delectus non, natus
+              distinctio sit illo voluptate magnam voluptates, recusandae
+              perspiciatis debitis. Dolores minus aperiam perspiciatis sunt
+              neque, id ullam? Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Temporibus quidem ipsum nihil vitae unde
+              deleniti necessitatibus voluptas placeat possimus officia,
+              molestias similique non excepturi quia nulla maiores quod ad
+              expedita?adipisicing elit. Molestiae, repellat provident!
+              Blanditiis veritatis obcaecati quo deleniti repellat magni,
+              tenetur animi illo distinctio! Rem fuga aliquid ipsum iure
+              eligendi, cumque eaque. Eius ullam suscipit inventore perferendis.
+            </p>
+            <button class="btn btn-resume">Resume</button>
+          </div>
+        </div>
+      </div>
+      <div class="skill-section" id="Skill">
+        <h1>Skills</h1>
+        <div class="skill-container">
+          <div class="left">
+            <div class="skill-left-content">
+              <h2>Development</h2>
+              <ul class="skill-txt">
+                <li>Html</li>
+                <li>Css</li>
+                <li>JavaScript</li>
+                <li>Node js</li>
+              </ul>
+            </div>
+            <div class="skill-left-content">
+              <h2>Design</h2>
+              <ul class="skill-txt">
+                <li>Figma</li>
+                <li>Photoshop</li>
+                <li>Adobe XD</li>
+              </ul>
+            </div>
+          </div>
+          <div class="right">
+            <img src="./imges/skill vectoer/Programming-pana.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="project-section" id="project">
+        <h1>Projects</h1>
+        <div class="project-content">
+          <div class="project-img">
+            <img
+              src="https://img.freepik.com/free-vector/flat-cms-content-landing-page_23-2148806201.jpg?w=1060&t=st=1698241726~exp=1698242326~hmac=c12edb247d6816b0df6bc4e174636f867b4c815010167b059885065a960e5e4c"
+              alt=""
+            />
+            <h3>CMs content managment system</h3>
+          </div>
+          <div class="project-img">
+            <img
+              src="https://img.freepik.com/free-vector/web-design-agency-landing-page_52683-868.jpg?w=740&t=st=1698241778~exp=1698242378~hmac=9fc16244c45cb32fd39d922c59c3d1dc4bbd6036ba847949f557b496f74566d3"
+              alt=""
+            />
+            <h3>Web design agency</h3>
+          </div>
+          <div class="project-img">
+            <img
+              src="https://img.freepik.com/free-vector/flat-travel-landing-page-template_52683-16387.jpg?size=626&ext=jpg"
+              alt=""
+            />
+            <h3>Time to travel</h3>
+          </div>
+        </div>
+      </div>
+      <div class="contact-section" id="contact">
+        <h1>Contact</h1>
+        <div class="contact-container">
+          <div class="left">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15095.010313292814!2d72.81488469122638!3d18.94234271575531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1de283029ed%3A0x5da3ab75b442c9b!2sMarine%20Lines%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1698244619396!5m2!1sen!2sin"
+              width="560"
+              height="500"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+          <div class="right">
+            <div class="contact-form">
+              <div class="input-form">
+                <label for="name">Name</label>
+                <input type="text" placeholder="" id="name" />
+              </div>
+              <div class="input-form">
+                <label for="email">Email Id</label>
+                <input type="email" placeholder="" id="email" />
+              </div>
+              <div class="input-form">
+                <label for="Message">Message</label>
 
-</div>
- <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="./index.js"></script>
-</body>
-
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  id="Message"
+                  rows="10"
+                ></textarea>
+              </div>
+              <button class="btn">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer-container">
+          <div class="left">
+            <h1>john</h1>
+            <h3>
+              Great web design without functionality is like a sports car with
+              no engine.
+            </h3>
+            <p>ADITYA 2023</p>
+          </div>
+          <div class="right">
+            <ul class="footer-nav-items">
+              <h2>links</h2>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Skills</a>
+              </li>
+              <li>
+                <a href="#">Project</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-end">
+          <div class="left">
+            <p>ADITYA 2023</p>
+          </div>
+          <div class="right">
+            <p>TERMS || CONDITIONS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+     integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    //locomotive-scroll
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" 
+    integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./index.js"></script>
+  </body>
 </html>
