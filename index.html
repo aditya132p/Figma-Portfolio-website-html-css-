@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FIGMA-DESIGN TO LIVE-WEBSITE</title>
+   
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    
   </head>
   <body>
+    <span class="loader"></span>
     <div class="main" id="main">
       <div class="hero">
-        <nav>
+        <nav data-scroll-sticky data-scroll-target="#main" >
           <h1>john</h1>
 
           <ul class="nav-items">
@@ -32,6 +36,9 @@
               </a>
             </li>
           </ul>
+          <i class="ri-menu-4-line"></i>
+         
+
         </nav>
         <div class="hero-container">
           <div class="left">
@@ -50,7 +57,7 @@
           </div>
           <div class="right">
             <div class="right-img">
-              <img class="hero-img" src="./imges/hero-img.svg" alt="" />
+              <img class="hero-img" src="./imges/cesar-rincon-XHVpWcr5grQ-unsplash-removebg.png" alt="" />
             </div>
           </div>
         </div>
@@ -110,27 +117,16 @@
       <div class="project-section" id="project">
         <h1>Projects</h1>
         <div class="project-content">
+
           <div class="project-img">
-            <img
-              src="https://img.freepik.com/free-vector/flat-cms-content-landing-page_23-2148806201.jpg?w=1060&t=st=1698241726~exp=1698242326~hmac=c12edb247d6816b0df6bc4e174636f867b4c815010167b059885065a960e5e4c"
-              alt=""
-            />
+            <img  data-tilt src="./imges/card01.png" alt="" class="card01">
             <h3>CMs content managment system</h3>
           </div>
           <div class="project-img">
-            <img
-              src="https://img.freepik.com/free-vector/web-design-agency-landing-page_52683-868.jpg?w=740&t=st=1698241778~exp=1698242378~hmac=9fc16244c45cb32fd39d922c59c3d1dc4bbd6036ba847949f557b496f74566d3"
-              alt=""
-            />
+            <img data-tilt src="./imges/card02.png" alt="" class="card02">
             <h3>Web design agency</h3>
           </div>
-          <div class="project-img">
-            <img
-              src="https://img.freepik.com/free-vector/flat-travel-landing-page-template_52683-16387.jpg?size=626&ext=jpg"
-              alt=""
-            />
-            <h3>Time to travel</h3>
-          </div>
+          
         </div>
       </div>
       <div class="contact-section" id="contact">
@@ -212,7 +208,7 @@
         </div>
       </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" 
@@ -221,6 +217,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" 
     integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+     integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"
+       integrity="sha512-u1L7Dp3BKUP3gijgSRoMTNxmDl/5o+XOHupwwa7jsI1rMzHrllSLKsGOfqjYl8vrEG+8ghnRPNA/SCltmJCZpQ==" 
+       crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <script src="./index.js"></script>
   </body>
 </html>
